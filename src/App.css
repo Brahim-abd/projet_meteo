@@ -1,5 +1,45 @@
-.App {
+.bg-custom-COOL {
+  background-color: #80ffd9; 
+  
+}
+.contraint {
+  display: flex;
+  justify-content: flex-end;
+}
+h1{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 50%;
   text-align: center;
+
+}
+.bg-custom-HOT {
+  background-color: #ff7e7e; 
+}
+
+.bg-custom-COLD {
+  background-color: #71aaff; 
+}
+
+.bg-custom-WARM {
+  background-color: #ffb070; 
+}
+
+.align-left{
+  text-align: left;
+}
+
+.cont {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+  
+}
+.col{
+  text-align: center;
+  display: inline-block;
+  width: 50%;
 }
 
 .App-logo {
@@ -24,10 +64,27 @@
   color: white;
 }
 
+.long{
+  text-align: center;
+  display: flex;
+  /*display: inline-block;*/
+  width: 50%;
+}
+.form-container{
+  border: 1px solid #ccc; /* Bordure de 1 pixel avec une couleur grise */
+  padding: 20px;
+}
+
 .App-link {
   color: #61dafb;
 }
-
+.navbar-brand{
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
